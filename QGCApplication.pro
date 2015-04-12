@@ -276,7 +276,7 @@ HEADERS += \
     src/QmlControls/ParameterEditorController.h \
     src/QmlControls/ScreenTools.h \
     src/uas/QGCMAVLinkUASFactory.h \
-    src/uas/QGCUASFileManager.h \
+    src/uas/FileManager.h \
     src/uas/QGCUASParamManager.h \
     src/uas/QGCUASParamManagerInterface.h \
     src/uas/UAS.h \
@@ -420,7 +420,7 @@ SOURCES += \
     src/QmlControls/ParameterEditorController.cc \
     src/QmlControls/ScreenTools.cc \
     src/uas/QGCMAVLinkUASFactory.cc \
-    src/uas/QGCUASFileManager.cc \
+    src/uas/FileManager.cc \
     src/uas/QGCUASParamManager.cc \
     src/uas/UAS.cc \
     src/uas/UASManager.cc \
@@ -555,7 +555,7 @@ HEADERS += \
     src/qgcunittest/MockUAS.h \
     src/qgcunittest/MockUASManager.h \
     src/qgcunittest/MultiSignalSpy.h \
-    src/qgcunittest/QGCUASFileManagerTest.h \
+    src/qgcunittest/FileManagerTest.h \
     src/qgcunittest/TCPLinkTest.h \
     src/qgcunittest/TCPLoopBackServer.h \
     src/FactSystem/FactSystemTestBase.h \
@@ -579,7 +579,7 @@ SOURCES += \
     src/qgcunittest/MockUAS.cc \
     src/qgcunittest/MockUASManager.cc \
     src/qgcunittest/MultiSignalSpy.cc \
-    src/qgcunittest/QGCUASFileManagerTest.cc \
+    src/qgcunittest/FileManagerTest.cc \
     src/qgcunittest/TCPLinkTest.cc \
     src/qgcunittest/TCPLoopBackServer.cc \
     src/FactSystem/FactSystemTestBase.cc \
