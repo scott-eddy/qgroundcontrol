@@ -19,7 +19,10 @@ WindowsBuild {
 
 MAVLINKPATH_REL = libs/mavlink/include/mavlink/v1.0
 MAVLINKPATH = $$BASEDIR/$$MAVLINKPATH_REL
-MAVLINK_CONF = ardupilotmega
+
+#NOTE: Haircells has changed the default dialect to pressure wing, as we have 
+#custom messages not built around the common set.  
+MAVLINK_CONF = pressurewing
 DEFINES += MAVLINK_NO_DATA
 
 # First we select the dialect, checking for valid user selection
